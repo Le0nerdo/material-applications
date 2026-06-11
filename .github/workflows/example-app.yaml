@@ -16,7 +16,7 @@ jobs:
         run: ls -la
 
       - name: cd
-        run: cd express-app
+        run: cd ./express-app
 
       - name: ls 2
         run: ls -la
