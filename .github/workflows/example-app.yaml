@@ -12,8 +12,14 @@ jobs:
       - name: Checkout folder
         uses: actions/checkout@v6
 
+      - name: ls 1
+        run: ls -la
+
       - name: cd
         run: cd express-app
+
+      - name: ls 2
+        run: ls -la
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v4
