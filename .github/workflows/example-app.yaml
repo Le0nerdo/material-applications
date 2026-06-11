@@ -11,8 +11,6 @@ jobs:
     steps:
       - name: Checkout folder
         uses: actions/checkout@v6
-        with:
-          sparse-checkout: express-app
 
       - name: cd
         run: cd express-app
